@@ -47,7 +47,7 @@ exports.user_home_get = async(req,res)=>{
         banners
       })
     })
-  } catch{
+  } catch (err) {
     res.redirect('/404')
   }
     

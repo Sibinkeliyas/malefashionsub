@@ -20,8 +20,9 @@ const collection = require('./config/collection')
 
 //connection
 connection.connect((err)=>{
-  if(err) throw err
-  else{
+  if(err) {
+    console.log(err);
+  } else{
     console.log('database connected');
   }
 })

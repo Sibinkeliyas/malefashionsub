@@ -1,8 +1,9 @@
 
 
 const mongodb = require("mongodb");
+require('dotenv').config();
 
-const db = "mongodb://0.0.0.0:27017/"
+const db = process.env.mongodb
 
 const MongoClient = mongodb.MongoClient;
 

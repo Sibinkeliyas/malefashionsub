@@ -73,6 +73,7 @@ module.exports = {
                 }
             ]).toArray()
             resolve(banner)
+            console.log(banner);
             } catch (err) {
                 reject(err)
             }
