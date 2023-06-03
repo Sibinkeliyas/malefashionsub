@@ -44,8 +44,8 @@ paypal.configure({
                 "payment_method": "paypal"
             },
             "redirect_urls": {
-                "return_url": "http://localhost:3000/success-payment-pay-pal",
-                "cancel_url": "http://localhost:3000/cancel-payment-pay-pal"
+                "return_url": "https://malefashion.onrender.com/success-payment-pay-pal",
+                "cancel_url": "https://malefashion.onrender.com/cancel-payment-pay-pal"
             },
             "transactions": [{
                 "item_list": {
